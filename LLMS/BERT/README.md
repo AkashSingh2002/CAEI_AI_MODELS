@@ -8,7 +8,8 @@ BERT is pre-trained on a large corpus of text data using a masked language model
 One of the most significant advantages of BERT is its versatility and effectiveness across a wide range of NLP tasks. By fine-tuning BERT on task-specific data, researchers and practitioners can achieve state-of-the-art performance on tasks such as sentiment analysis, text classification, question answering, language translation, and more.
 
 ## MODEL ARCHITECTURE
-![Alt text](image-1.png)
+![image](https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/93e2d19e-3d61-4d3f-b161-c22374919dfb)
+
 
 The architecture of BERT (Bidirectional Encoder Representations from Transformers) consists of several key components that work together to process and encode input text data. Here's an overview of the architecture:
 
