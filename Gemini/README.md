@@ -32,6 +32,9 @@ To run the application, ensure you have all the required libraries installed. Th
 streamlit run gen_app.py
 
 ### Screenshots 
+<img width="1440" alt="Screenshot 2024-02-25 at 8 18 26 PM" src="https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/35cbf0d9-1a55-43c2-9ef3-c9ceabb7f90d">
+<img width="1440" alt="Screenshot 2024-02-25 at 8 18 53 PM" src="https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/d2c0e302-6992-4d20-9669-3fba7400ef1e">
+<img width="1440" alt="Screenshot 2024-02-25 at 8 18 38 PM" src="https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/d1040c80-d36b-4648-8f83-04db1584bded">
 
 
 ### Report on PDF Expert Application
@@ -66,3 +69,11 @@ The PDF Expert application offers a convenient solution for analyzing PDF docume
 To run the application, ensure you have all the required libraries installed. Then, execute the script using the following command:
 
 streamlit run chat_pdf.py
+
+### Screenshots 
+<img width="1440" alt="Screenshot 2024-02-25 at 8 16 44 PM" src="https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/626fd0d0-ae65-4b04-b6d4-2634649296b8">
+<img width="1440" alt="Screenshot 2024-02-25 at 8 17 03 PM" src="https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/f521a73a-7947-49e5-92f0-0f203b885c3b">
+<img width="1440" alt="Screenshot 2024-02-25 at 8 17 35 PM" src="https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/eb4fa6c5-225a-42a1-916f-cfa539c11b7b">
+<img width="1440" alt="Screenshot 2024-02-25 at 8 17 56 PM" src="https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/17295808-566d-4793-99ec-c2c9adf48d99">
+
+
