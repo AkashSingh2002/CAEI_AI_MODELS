@@ -7,6 +7,8 @@ The purpose of the Gemini LLM (Large Language Model) application is to provide a
 
 #### Components:
 1. **Environment Configuration**: The application imports the `load_dotenv` function from the `dotenv` module to load environment variables from a `.env` file. This is commonly used to manage sensitive information such as API keys.
+
+Generate your own api_key at https://aistudio.google.com/app/apikey
    
 2. **Streamlit Setup**: Streamlit is imported as `st`, providing a framework for building interactive web applications in Python. The application sets the page configuration with a title "PDF Q&A" using `st.set_page_config`.
    
