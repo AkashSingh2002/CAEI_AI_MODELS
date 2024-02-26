@@ -24,3 +24,15 @@ The architecture of BERT (Bidirectional Encoder Representations from Transformer
 5. **Fine-tuning Layers**: After pre-training, BERT can be fine-tuned on task-specific data for downstream natural language processing tasks. Fine-tuning involves adding task-specific output layers on top of the pre-trained BERT model and training the entire model on labeled task data. This allows BERT to adapt its learned representations to the specific requirements of the task at hand.
 
 Overall, the architecture of BERT is characterized by its transformer-based design, pre-trained embeddings, and fine-tuning capabilities. These components enable BERT to achieve state-of-the-art performance on a wide range of natural language processing tasks by effectively capturing contextual information and semantic relationships in text data.
+
+### HUGGING FACE:
+Hugging Face is an NLP-focused startup with a large open-source community, in particular around the Transformers library. 
+-> Hugging Face Transformers is a python-based library that exposes an API to use many well-known transformer architectures, such as BERT, RoBERTa, GPT-2 or DistilBERT, that obtain state-of-the-art results on a variety of NLP tasks like text classification, information extraction, question answering, and text generation.
+->These architectures come pre-trained with several sets of weights. 
+
+### FEATURES
+The library downloads pre-trained models of natural language understanding tasks such as analyzing the sentiment of a text & natural language generation such as completing a prompt with new text or translating in another language.
+
+### Task sentiment Analysis:
+By default, the model downloaded for this pipeline is called "distilbert-base-uncased-finetuned-sst-2-english". We can look at its 'https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english' to get more information about it.
+-> It uses the DistilBERT architecture 'https://huggingface.co/transformers/model_doc/distilbert.html' and has been fine-tuned on a dataset called SST-2 for the sentiment analysis task.
