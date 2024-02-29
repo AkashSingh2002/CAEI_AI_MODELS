@@ -38,3 +38,4 @@ Wand
 opencv-python
 google-auth
 transformers
+chainlit
