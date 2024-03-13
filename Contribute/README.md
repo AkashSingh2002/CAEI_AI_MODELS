@@ -1,4 +1,4 @@
-## Contributing to [Repository Name]
+## Contributing to CAEI_AI_MODELS
 
 Welcome to CAEI_AI_MODELS! We are glad you are interested in contributing. Before you get started, please take a moment to review this guide to understand how you can contribute effectively.
 
