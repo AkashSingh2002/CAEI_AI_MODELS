@@ -23,3 +23,10 @@ It is estimated that BERT enhances Google's understanding of approximately 10% o
 BY December 2019, BERT had been applied to more than 70 different languages. The model has had a large impact on voice search as well as text-based search, which prior to 2018 had been error-prone with Google's NLP techniques. Once BERT was applied to many languages, it improved search engine optimization; its proficiency in understanding context helps it interpret patterns that different languages share without having to completely understand the language.
 
 BERT went on to influence many artificial intelligence systems. Various lighter versions of BERT and similar training methods have been applied to models from GPT-2 to ChatGPT.
+
+### How BERT works?
+The goal of any given NLP technique is to understand human language as it is spoken naturally. In BERT's case, this means predicting a word in a blank. To do this, models typically train using a large repository of specialized, labeled training data. This process involves linguists doing laborious manual data labeling.
+
+BERT, however, was pretrained using only a collection of unlabeled, plain text, namely the entirety of English Wikipedia and the Brown Corpus. It continues to learn through unsupervised learning from unlabeled text and improves even as it's being used in practical applications such as Google search.
+
+BERT's pretraining serves as a base layer of knowledge from which it can build its responses. From there, BERT can adapt to the ever-growing body of searchable content and queries, and it can be fine-tuned to a user's specifications. This process is known as transfer learning. Aside from this pretraining process, BERT has multiple other aspects it relies on to function as intended, including the following:
