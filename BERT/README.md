@@ -30,3 +30,7 @@ The goal of any given NLP technique is to understand human language as it is spo
 BERT, however, was pretrained using only a collection of unlabeled, plain text, namely the entirety of English Wikipedia and the Brown Corpus. It continues to learn through unsupervised learning from unlabeled text and improves even as it's being used in practical applications such as Google search.
 
 BERT's pretraining serves as a base layer of knowledge from which it can build its responses. From there, BERT can adapt to the ever-growing body of searchable content and queries, and it can be fine-tuned to a user's specifications. This process is known as transfer learning. Aside from this pretraining process, BERT has multiple other aspects it relies on to function as intended, including the following:
+1.Transformers
+Google's work on transformers made BERT possible. The transformer is the part of the model that gives BERT its increased capacity for understanding context and ambiguity in language. The transformer processes any given word in relation to all other words in a sentence, rather than processing them one at a time. By looking at all surrounding words, the transformer enables BERT to understand the full context of the word and therefore better understand searcher intent.
+
+This is contrasted against the traditional method of language processing, known as word embedding. This approach was used in models such as GloVe and word2vec. It would map every single word to a vector, which represented only one dimension of that word's meaning.
