@@ -34,3 +34,8 @@ BERT's pretraining serves as a base layer of knowledge from which it can build i
 Google's work on transformers made BERT possible. The transformer is the part of the model that gives BERT its increased capacity for understanding context and ambiguity in language. The transformer processes any given word in relation to all other words in a sentence, rather than processing them one at a time. By looking at all surrounding words, the transformer enables BERT to understand the full context of the word and therefore better understand searcher intent.
 
 This is contrasted against the traditional method of language processing, known as word embedding. This approach was used in models such as GloVe and word2vec. It would map every single word to a vector, which represented only one dimension of that word's meaning.
+
+### Masked language modeling
+Word embedding models require large data sets of structured data. While they are adept at many general NLP tasks, they fail at the context-heavy, predictive nature of question answering because all words are in some sense fixed to a vector or meaning.
+
+BERT uses an MLM method to keep the word in focus from seeing itself, or having a fixed meaning independent of its context. BERT is forced to identify the masked word based on context alone. In BERT, words are defined by their surroundings, not by a prefixed identity
