@@ -38,4 +38,7 @@ This is contrasted against the traditional method of language processing, known 
 ### Masked language modeling
 Word embedding models require large data sets of structured data. While they are adept at many general NLP tasks, they fail at the context-heavy, predictive nature of question answering because all words are in some sense fixed to a vector or meaning.
 
-BERT uses an MLM method to keep the word in focus from seeing itself, or having a fixed meaning independent of its context. BERT is forced to identify the masked word based on context alone. In BERT, words are defined by their surroundings, not by a prefixed identity
+BERT uses an MLM method to keep the word in focus from seeing itself, or having a fixed meaning independent of its context. BERT is forced to identify the masked word based on context alone. In BERT, words are defined by their surroundings, not by a prefixed identity 
+
+### Self-attention mechanisms
+BERT also relies on a self-attention mechanism that captures and understands relationships among words in a sentence. The bidirectional transformers at the center of BERT's design make this possible. This is significant because often, a word may change meaning as a sentence develops. Each word added augments the overall meaning of the word the NLP algorithm is focusing on. The more words that are present in each sentence or phrase, the more ambiguous the word in focus becomes. BERT accounts for the augmented meaning by reading bidirectionally, accounting for the effect of all other words in a sentence on the focus word and eliminating the left-to-right momentum that biases words towards a certain meaning as a sentence progresses.
