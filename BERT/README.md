@@ -42,3 +42,10 @@ BERT uses an MLM method to keep the word in focus from seeing itself, or having 
 
 ### Self-attention mechanisms
 BERT also relies on a self-attention mechanism that captures and understands relationships among words in a sentence. The bidirectional transformers at the center of BERT's design make this possible. This is significant because often, a word may change meaning as a sentence develops. Each word added augments the overall meaning of the word the NLP algorithm is focusing on. The more words that are present in each sentence or phrase, the more ambiguous the word in focus becomes. BERT accounts for the augmented meaning by reading bidirectionally, accounting for the effect of all other words in a sentence on the focus word and eliminating the left-to-right momentum that biases words towards a certain meaning as a sentence progresses.
+Diagram showing how BERT identifies meanings of words
+BERT examines individual words in context to determine the meaning of ambiguous language.
+
+For example, in the image above, BERT is determining which prior word in the sentence the word "it" refers to, and then using the self-attention mechanism to weigh the options. The word with the highest calculated score is deemed the correct association. In this example, "it" refers to "animal", not "street". If this phrase was a search query, the results would reflect this subtler, more precise understanding BERT reached.
+
+### Next sentence prediction
+NSP is a training technique that teaches BERT to predict whether a certain sentence follows a previous sentence to test its knowledge of relationships between sentences. Specifically, BERT is given both sentence pairs that are correctly paired and pairs that are wrongly paired so it gets better at understanding the difference. Over time, BERT gets better at predicting next sentences accurately. Typically, both NSP and MLM techniques are used simultaneously.
