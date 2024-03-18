@@ -1,4 +1,5 @@
 ### What is BERT?
+BERT: BIDIRECTIONAL ENCODER REPRESENTAION OF TRANSFORMERS.
 BERT language model is an open source machine learning framework for natural language processing (NLP). BERT is designed to help computers understand the meaning of ambiguous language in text by using surrounding text to establish context. The BERT framework was pretrained using text from Wikipedia and can be fine-tuned with question-and-answer data sets.
 
 ![image](https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/49e77494-ceb1-4f41-9493-31892bd56afc)
