@@ -1,6 +1,9 @@
 ### What is BERT?
 BERT language model is an open source machine learning framework for natural language processing (NLP). BERT is designed to help computers understand the meaning of ambiguous language in text by using surrounding text to establish context. The BERT framework was pretrained using text from Wikipedia and can be fine-tuned with question-and-answer data sets.
 
+![image](https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/49e77494-ceb1-4f41-9493-31892bd56afc)
+
+
 Historically, language models could only read input text sequentially -- either left-to-right or right-to-left -- but couldn't do both at the same time. BERT is different because it's designed to read in both directions at once. The introduction of transformer models enabled this capability, which is known as bidirectionality. Using bidirectionality, BERT is pretrained on two different but related NLP tasks: masked language modeling (MLM) and next sentence prediction (NSP).
 
 The objective of MLM training is to hide a word in a sentence and then have the program predict what word has been hidden based on the hidden word's context. The objective of NSP training is to have the program predict whether two given sentences have a logical, sequential connection or whether their relationship is simply random.
@@ -49,3 +52,4 @@ For example, in the image above, BERT is determining which prior word in the sen
 
 ### Next sentence prediction
 NSP is a training technique that teaches BERT to predict whether a certain sentence follows a previous sentence to test its knowledge of relationships between sentences. Specifically, BERT is given both sentence pairs that are correctly paired and pairs that are wrongly paired so it gets better at understanding the difference. Over time, BERT gets better at predicting next sentences accurately. Typically, both NSP and MLM techniques are used simultaneously.
+![image](https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/1efae604-2d3a-4fa1-8f02-ff01440c2d91)
