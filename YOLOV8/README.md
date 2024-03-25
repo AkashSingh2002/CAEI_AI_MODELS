@@ -53,4 +53,4 @@ The following image made by GitHub user RangeKing shows a detailed vizualisation
 
 ### REFERENCES:
 1. 'https://blog.roboflow.com/whats-new-in-yolov8/'
-2.
+2. 'https://github.com/ultralytics/ultralytics'
