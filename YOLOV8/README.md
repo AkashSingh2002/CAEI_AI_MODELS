@@ -1,4 +1,5 @@
 ### YOLOv8?
+![image](https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/e9291e99-1d30-41e5-a4d8-54ae7f960add)
 
 The field of computer vision advances with the release of YOLOv8, a model that defines a new state of the art for object detection, instance segmentation, and classification.
 
@@ -46,6 +47,8 @@ If you want to peer into the code yourself, check out the YOLOv8 repository and 
 Here we provide a quick summary of impactful modeling updates and then we will look at the model's evaluation, which speaks for itself.
 
 The following image made by GitHub user RangeKing shows a detailed vizualisation of the network's architecture.
+![image](https://github.com/Ro-han12/CAEI_AI_MODELS/assets/95674406/47673f31-91d3-4fb1-b701-17130e4dc724)
+
 
 
 ### REFERENCES:
