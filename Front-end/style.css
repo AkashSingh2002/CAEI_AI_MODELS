@@ -5,18 +5,95 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.navbar {
-    position: relative;
-    top: 0;
-    cursor: pointer;
-    height: 80px; 
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.background {
-    background: #6c757d;
-    background-blend-mode: darken;
-    background-size: cover;
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+.logo{
+    height:70px;
+    width:70px;
+    margin-left:-100px ;
+}
+.header__logo h3{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+}
+
+header{
+    padding: 5px;
+    width: 100%;
+    z-index: 999;
+}
+header.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.header__menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+.header__menu a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: color 0.3s;
+    color: white; 
+}
+.navbar{
+    margin-left: 43%;
+
+}
+.header__menu li a:hover {
+    color: lightgray;
+}
+
+
+.menu_btn{
+    display: none;
+    background:transparent;
+    cursor:pointer;
+}
+.mobile-nav-icon{
+    width:3rem;
+    height:3rem;
+    color:var(--primary-color);
+}
+.mobile-nav-icon[name="close-outline"]{
+    display:none;
+}
+.container3 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .container {
@@ -24,40 +101,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px; 
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    color:white;
-    margin-right: 20px;
-}
-
-.logo img {
-    width: 70px; 
-    height: 70px;
-    border-radius: 50%;
-    margin-right: 30px; 
-}
-
-.nav-list {
-    display: flex;
-    align-items: center;
-}
-
-.nav-list li {
-    list-style: none;
-    padding: 30px 60px; 
-}
-
-.nav-list li a {
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
-}
-
-.nav-list li a:hover {
-    color: lightgray;
 }
 
 #main-section {
@@ -242,12 +285,92 @@
         margin-left:10%;
         margin-right:10%;
     }
-    
-
+    .logo{
+        margin-left:-10px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top:0;
+        left:0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        transform:translateX(100%);
+        transition:all 0.5s linear;
+        opacity:0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .header__menu{
+        margin-left: 0; 
+        flex-direction: column;  
+        align-items:center;
+        gap:50px;
+    }
+    .menu_btn {
+        display: block;
+        z-index:99;
+    }
+    .active .navbar{
+        transform:translateX(0);
+        opacity:0.9;
+        visibility: visible;
+        pointer-events:auto;
+        padding-right:30%;
+        background-color: lightgray;
+        z-index:50;
+    }
+    .active .navbar a{
+        color:black;
+    }
+    .active .navbar a:hover{
+        color:#0056b3;
+    }
+    .active .menu_btn.mobile-nav-icon[name="close-outline"]{
+        display:block;
+        color:white;
+    }
+    .active .menu_btn.mobile-nav-icon[name="menu-outline"]{
+        display:none;
+        color:white;
+    }
+    .container {
+        padding: 0 1rem;
+    }
+    .container3 {
+        padding: 0 1rem;
+    }
+    .footer .social-links a {
+        height: 40px;
+        width: 40px;
+    }
 }
 
-@media(max-width: 574px) {
+@media(max-width: 500px) {
     .footer .footer-col {
         flex: 0 0 100%; 
+    }
+    .container1 h2{
+        font-size:40px !important;
+    }
+    .container1 p{
+        font-size: 20px !important;;
+    }
+    .footer .social-links a {
+        height: 20px;
+        width: 20px;
+        margin-left:-90px;
+    }
+    body{
+        background-color: black;
+        overflow-x: hidden;
+    }
+    #video-bg{
+        width:400px;
     }
 }
