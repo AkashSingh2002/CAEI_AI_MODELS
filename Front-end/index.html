@@ -5,22 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <title>CAIE</title>
 </head>
 <body>
-    <nav class="navbar background">
-        <div class="container">
-            <div class="logo">
-                <img src="https://www.phoenixlabsglobal.org/static/media/logo.0558725ab9c58419e820.png" class="Logo d-none d-sm-block" alt="Logo of Company">
-                <h2>Phoenix Labs</h2>
-            </div>
-            <ul class="nav-list">
-                <li><a href="meetteam.htm">VISION</a></li>
-                <li><a href="contact.htm">DIVISION</a></li>
-                <li><a href="project1.html">PROJECTS</a></li>
+    <header class="header"style="background-color:#6c757d">
+        <div class="container3 flex-row" >
+          <div class="header__logo">     
+            <img src="https://www.phoenixlabsglobal.org/static/media/logo.0558725ab9c58419e820.png" class="logo" alt="Logo of Company">
+                <h3>Phoenix Labs</h3>
+          </div>
+          <nav class="navbar">
+            <ul class="header__menu  flex-row">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="model.html">AI Model Repository</a>
+              </li>
+              <li>
+                <a href="project1.html">Projects</a>
+              </li>
             </ul>
+          </nav>
+          <div class="right flex-center">
+            <div class="menu_btn">
+              <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+              <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+            </div>
+          </div>
         </div>
-    </nav>
+      </header>
     <section id="main-section">
         <video autoplay muted loop id="video-bg">
             <source src="pexels_videos_1851190 (2160p).mp4" type="video/mp4">
@@ -48,10 +65,9 @@
                 <div class="footer-col">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="#">Artificial Intelligence Center</a></li>
-                        <li><a href="#">Crypto Technology Center</a></li>
-                        <li><a href="#">Web/Mobile Application Suite</a></li>
-                        <li><a href="#">Partnerships and Collaborations</a></li>
+                        <li><a href="ecosystem.html">AI Ecosystem</a></li>
+                        <li><a href="signin.html">User Account</a></li>
+                        <li><a href="collaborate.html">Partnerships and Collaborations</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -59,17 +75,13 @@
                     <ul>
                         <li><a href="aboutus.html">About</a></li>
                         <li><a href="contactus.html">Contact-Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Press Kit</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="#">Legal and Compliance</a></li>
-                        <li><a href="#">Research Papers</a></li>
-                        <li><a href="#">UniCare® Privacy Policy</a></li>
-                        <li><a href="#">News & Updates</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="news.html">News & Updates</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -87,5 +99,6 @@
             <p>© Phoenix Labs 2023-2024</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
