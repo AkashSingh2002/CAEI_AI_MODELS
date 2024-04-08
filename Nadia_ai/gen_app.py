@@ -13,9 +13,11 @@ def get_gemini_response(question):
     return response.text 
 
 st.set_page_config(page_title='PDF Q&A')
-st.header("GEMINI LLM APPLICATION")
+logo = "logo.jpeg"
+st.image(logo, width=200)
+st.header("Phoenix Lab's AI ASSISTANT: Nadia AI® ")
 input=st.text_input("Input: ",key="input")
-submit=st.button("ask question")
+submit=st.button("GO")
 
 if submit:
     response=get_gemini_response(input)
