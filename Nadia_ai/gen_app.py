@@ -15,7 +15,7 @@ def get_gemini_response(question):
 st.set_page_config(page_title='PDF Q&A')
 logo = "logo.jpeg"
 st.image(logo, width=200)
-st.header("Phoenix Lab's AI ASSISTANT: Nadia AI® ")
+st.header("Phoenix Lab's AI ASSISTANT: NADIA AI® ")
 input=st.text_input("Input: ",key="input")
 submit=st.button("GO")
 
